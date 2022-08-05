@@ -1,6 +1,6 @@
 // Refer to https://dyte.io/blog/streams-blog/ to learn how to use this middleware
 
-async function RetroTheme() {
+async function CompanyBranding() {
     const loadLogo = (url) => {
             return new Promise((resolve) => {
                 const image = new Image();
@@ -26,4 +26,4 @@ async function RetroTheme() {
     };
 }
 
-export default RetroTheme;
+export default CompanyBranding;
