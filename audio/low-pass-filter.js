@@ -1,9 +1,4 @@
-/**
- * NOTE(ravindra-dyte):
- * This is a sample Audio middleware to indicate how a audio middleware will look like
- * This is NOT a DEFAULT middlware by any means & is not being used in sdk work flow
- * This file is kept in .js format to have plug & play sample
- */
+// Refer to https://dyte.io/blog/streams-blog/ to learn how to use this middlewares
 
 function lowPassFilter(audioContext) {
     const bufferSize = 512;
