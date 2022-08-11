@@ -21,7 +21,6 @@ async function CompanyBranding() {
     const logo = await loadLogo('https://s3.ap-south-1.amazonaws.com/cdn.dyte.in/logos/dyte.png');
 
     return (canvas, ctx) => {
-        ctx.strokeRect(0, 0, canvas.width, canvas.height);
         ctx.drawImage(logo, canvas.width - 200, 100, 100, 100)
     };
 }
